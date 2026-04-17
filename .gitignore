@@ -1,0 +1,41 @@
+# ==========================================
+# WatchZork Service (WZDS) GitIgnore
+# ==========================================
+
+# 1. Visual Studio / MSBuild IDE Files
+.vs/
+.github
+*.user
+*.suo
+*.db
+*.sln.docstates
+
+# 2. MSVC Build Output Directories
+x64/
+x86/
+ARM64/
+Debug/
+Release/
+
+# 3. Compiled Binaries & Symbols
+*.exe
+*.dll
+*.pdb
+*.ipdb
+*.obj
+*.iobj
+*.lib
+*.exp
+*.map
+*.res
+*.ilk
+
+# 4. Build Telemetry & Logs
+*.tlog
+*.log
+*.recipe
+microsoft/
+
+# 5. OS Generated Files
+desktop.ini
+Thumbs.db
